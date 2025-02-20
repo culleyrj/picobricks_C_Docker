@@ -1,1 +1,4 @@
-#
+# make sure no build directories
+**/build
+
+pico_sdk_import.cmake
