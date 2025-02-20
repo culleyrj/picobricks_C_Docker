@@ -11,6 +11,3 @@ The directions that I am following are from the Element14 website **[Working wit
 docker run -d -it --name pico-sdk -- mount type=bind, source=${PWD}, target=/home/dev/lukstep/raspberry-pi-pico-sdk:latest
 ```
 
-``` c++
-std::cout << "Hello World\n";
-```
