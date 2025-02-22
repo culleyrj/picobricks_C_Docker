@@ -1,5 +1,7 @@
 # picobricks_C_Docker
-This is a project to create some code and dockerfile to develop C code for the raspberry pi pico under a docker container
+This is a project to create some code and dockerfile to develop C code for the raspberry pi pico under a docker container.
+------
+The pico bricks board has a nice feature if you find programming your board by disconnecting the USB port a little tedious.  On the pico bricks board there is a reset button on the opposite side the USB port plugs in.  Hold the Reset button, press and hold the bootsel button, release the reset and then release the bootsel button.  The device is now in programming mode.  I have a usb hub that allows me to power down individual usb connections.  I use this feature over disconnecting the USB plug for programming.
 
 ## Docker file
 The docker file I am using is from lukstep.  This is my starting point.
