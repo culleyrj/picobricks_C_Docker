@@ -7,7 +7,11 @@ The pico bricks board has a nice feature if you find programming your board by d
 The docker file I am using is from lukstep.  This is my starting point.
 
 ## Directions
-The directions that I am following are from the Element14 website **[Working with Pi Pico C/C++ Projects Easily: A Docker Approach!](https://community.element14.com/products/raspberry-pi/b/blog/posts/working-with-pi-pico-c-c-projects-easily-a-docker-approach)** but the site recently went down.
+The directions that I am following are from the Element14 website **[Working with Pi Pico C/C++ Projects Easily: A Docker Approach!](https://community.element14.com/products/raspberry-pi/b/blog/posts/working-with-pi-pico-c-c-projects-easily-a-docker-approach)** 
+
+-------
+
+I am looking to follow the instructions above but to do the boiler plate from pimorni.
 
 ``` #!/bin/bash
 docker run -d -it --name pico-sdk -- mount type=bind, source=${PWD}, target=/home/dev/lukstep/raspberry-pi-pico-sdk:latest
